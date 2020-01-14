@@ -1,0 +1,325 @@
+@charset "UTF-8";
+@media (max-width: 991px) {
+  .overlay-submenu {
+    padding-left: 0;
+  }
+
+  .overlay-submenu-main {
+    display: none;
+  }
+
+  #about-us .overlay-background {
+    top: 50% !important;
+  }
+
+  .nav-fixed {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  body #intro .intro-item .intro-content {
+    padding-bottom: 0;
+  }
+  body .overlay .overlay-content .overlay-submenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+  }
+  body .overlay .overlay-content .overlay-nav-menu {
+    padding: 0;
+  }
+  body .overlay .overlay-content .overlay-nav-menu a {
+    font-size: 2.5rem !important;
+  }
+}
+@media (max-width: 539px) {
+  body #intro .intro-item .intro-content {
+    width: 100%;
+    padding: 0 30px;
+  }
+  body #intro .intro-item .intro-content p {
+    width: auto;
+  }
+  body #intro .intro-item .intro-content h1 {
+    font-size: 3rem;
+  }
+  body .overlay .overlay-content .overlay-nav-menu a {
+    font-size: 1.8rem !important;
+  }
+  body .overlay .overlay-content .overlay-submenu {
+    padding: 0;
+  }
+  body .overlay .overlay-content .overlay-submenu nav {
+    padding: 80px;
+  }
+  body .overlay-menu {
+    height: auto;
+    width: 100%;
+    padding: 20px 0;
+  }
+  body .overlay-menu .overlay-logo {
+    padding: 0 0 0 20px;
+  }
+  body .overlay-menu .overlay-menu-img {
+    top: 30%;
+    left: 90%;
+  }
+  body .overlay-menu .overlay-menu-img-close {
+    top: 30%;
+    left: 90%;
+  }
+}
+@media (max-width: 350px) {
+  .overlay-submenu nav {
+    margin-top: 80px !important;
+  }
+
+  .intro-content h1 {
+    margin-top: 80px;
+  }
+}
+body {
+  overflow-x: hidden;
+}
+
+.padding-null {
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-fixed {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  z-index: 99;
+  background: rgba(255, 255, 255, 0.5);
+}
+.nav-fixed nav ul {
+  border: 1px solid #8b8b8b;
+  padding: 5px;
+  list-style: none;
+  display: flex;
+  flex-direction: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-fixed nav ul li {
+  margin: 0 3px;
+  display: flex;
+  flex-direction: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-fixed nav ul li:hover i {
+  visibility: visible;
+  opacity: 1;
+}
+.nav-fixed nav ul li i {
+  font-size: 8px;
+  padding-right: 4px;
+  display: inline-block;
+  color: #1fb2eb;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s all;
+}
+.nav-fixed nav ul li:last-child a {
+  color: #1fb2eb;
+  border-left: 1px solid #8b8b8b;
+  padding-left: 10px;
+}
+.nav-fixed nav ul li a {
+  color: #8b8b8b;
+  display: inline-block;
+  transition: 0.5s all;
+  width: 100%;
+}
+.nav-fixed nav ul li a:hover {
+  color: #1fb2eb;
+}
+
+#intro {
+  position: absolute;
+}
+#intro .intro-item {
+  position: relative;
+  height: 100vh;
+}
+#intro .intro-item .intro-content {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+  padding-left: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+#intro .intro-item .intro-content h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #1fb2eb;
+  font-weight: bold;
+}
+#intro .intro-item .intro-content p {
+  margin-top: 50px;
+  width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: block-axis;
+  display: -webkit-box;
+  color: #8b8b8b;
+}
+#intro .overlay-background {
+  position: absolute;
+  top: 50%;
+  height: 50%;
+  left: 200px;
+  width: calc(100% - 200px);
+  z-index: -1;
+}
+
+.img-intro {
+  height: 100vh;
+}
+
+.overlay-menu {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  background: #0f0f0f;
+  background: linear-gradient(0deg, #0f0f0f 0%, #2b2f30 100%);
+  height: 100vh;
+  padding: 0 40px;
+}
+.overlay-menu .overlay-logo {
+  padding-top: 25px;
+}
+.overlay-menu .overlay-menu-img {
+  position: absolute;
+  top: 50%;
+}
+.overlay-menu .overlay-menu-img-close {
+  position: absolute;
+  top: 50%;
+  transform: scaleY(0);
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: -100%;
+  background-color: #00B8FF;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.overlay .overlay-content .overlay-nav-menu {
+  height: 100vh;
+  padding-left: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.overlay .overlay-content .overlay-nav-menu ul {
+  list-style: none;
+}
+.overlay .overlay-content .overlay-nav-menu ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 0;
+  font-size: 3rem;
+  transition: 0.5s all;
+}
+.overlay .overlay-content .overlay-nav-menu ul li a::after {
+  font-family: "FontAwesome";
+  content: "";
+  color: #fff;
+  padding-left: 15px;
+  font-size: 40px;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay .overlay-content .overlay-nav-menu ul li a:hover {
+  color: #00A3E2;
+}
+.overlay .overlay-content .overlay-nav-menu ul li a:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+.overlay .overlay-content .overlay-submenu {
+  height: 100vh;
+  transition: 0.5s all;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.overlay .overlay-content .overlay-submenu nav {
+  border: 1px solid #fff;
+  padding: 150px 150px 150px 100px;
+  position: relative;
+}
+.overlay .overlay-content .overlay-submenu nav .submenu-header {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.overlay .overlay-content .overlay-submenu nav .submenu-header a {
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  border-left: 1px solid #fff;
+  padding-left: 10px;
+}
+.overlay .overlay-content .overlay-submenu nav .submenu-close {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.overlay .overlay-content .overlay-submenu nav .submenu-close i {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.overlay .overlay-content .overlay-submenu nav ul {
+  list-style: none;
+}
+.overlay .overlay-content .overlay-submenu nav ul li a {
+  color: #fff;
+  padding: 5px 0;
+  display: inline-block;
+}
+
+#about-us .overlay-background {
+  left: 300px;
+  top: 0;
+}
+#about-us #intro .row {
+  flex-direction: row-reverse;
+}
+#about-us #intro .img-intro div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 100px;
+  z-index: 999;
+}
+
+/*# sourceMappingURL=main.css.map */
