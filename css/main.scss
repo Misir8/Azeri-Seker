@@ -238,6 +238,9 @@ a:hover{
     .row{
       flex-direction: row-reverse;
     }
+    h1{
+      font-size: 3.5rem;
+    }
     .img-intro {
       div {
         width: 100%;
@@ -250,7 +253,365 @@ a:hover{
   }
 }
 
+//Health and Sport Page
 
+#health-and-sport{
+  .intro-item{
+    height: 55vh;
+    width: 75%;
+    .intro-content{
+      padding-bottom: 0;
+      h1{
+        font-size: 3rem;
+      }
+      p{
+        &:first-child{
+          overflow: hidden;
+          text-overflow: ellipsis;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: block-axis;
+          display: -webkit-box;
+        }
+        margin: 0;
+        width: 100%;
+        &:first-child{
+          padding-bottom: 30px;
+        }
+      }
+    }
+  }
+  .img-intro{
+    height: 45vh;
+    div{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
 
+//Local Partners Page
 
+#local-partners{
+  h1{
+    font-size: 3.5rem !important;
+  }
+  .img-intro{
+    img{
+      object-fit: cover;
+      width: 200px;
+    }
+  }
+}
 
+//News Page
+
+#news{
+  .intro-content{
+    padding-bottom: 0!important;
+    h1{
+      font-size: 4rem!important;
+    }
+    p{
+      margin-top: 5px !important;
+      width: 100% !important;
+    }
+  }
+  .img-intro{
+    div{
+      height: 100%;
+    }
+  }
+  .overlay-background{
+    top: 0;
+    height: 100%;
+    left: 50%;
+    position: fixed;
+  }
+}
+
+//Reviews Page
+
+#reviews{
+  #intro{
+    .intro-item {
+      .intro-content{
+        width: 80%;
+        padding-bottom: 0;
+        h1{
+          font-size: 4rem;
+          margin-top: 200px;
+          position: relative;
+          i{
+            position: absolute;
+            top: 10px;
+            left: -40px;
+          }
+        }
+        h5{
+          color: $primary;
+          margin-bottom: 10px;
+        }
+        p{
+          margin: 0 0 20px 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+  .overlay-background{
+    top: 0;
+    height: 50%;
+    left: 65%;
+    width: 100%;
+  }
+  .img-background{
+    width: 800px;
+    height: 400px;
+    position: fixed;
+    right: -50px;
+    z-index: -1;
+    top: 0;
+  }
+  .nav-fixed{
+    background-color: white;
+  }
+}
+
+//Our-products Page
+
+#our-products{
+ #intro{
+   .intro-item {
+     height: 45vh;
+     padding: 0 200px;
+     .intro-content {
+       padding: 0;
+       width: 100%;
+       p{
+         margin: 40px 0;
+       }
+     }
+   }
+ }
+  .img-intro{
+    height: 55vh;
+    overflow-y: scroll;
+    padding: 0 200px;
+    .product-card{
+      border: 1px solid $success;
+      min-height: 350px;
+      overflow: hidden;
+      padding: 40px 20px 20px 20px;
+      margin-bottom: 40px;
+      .img-product{
+        height: 280px;
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .product-description{
+        border-top: 1px solid $success;
+        width: 70%;
+        padding-top: 20px;
+        color: $success;
+      }
+    }
+  }
+  .nav-fixed{
+    ul{
+      border: none;
+    }
+  }
+}
+
+::-webkit-scrollbar{
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: $primary;
+}
+
+#product-details{
+  #intro{
+    h1{
+      position: relative;
+      font-size: 4rem;
+      i{
+        position: absolute;
+        top: 10px;
+        left: -40px;
+      }
+    }
+  }
+}
+
+//Contact page
+#contacts{
+  .contact-container{
+    width: 100vw!important;
+  }
+  #intro{
+    .intro-content{
+      color: $success;
+      padding-bottom: 0;
+      justify-content: flex-start;
+      padding-top: 150px;
+      width: 80%;
+      h1{
+        font-size: 3.5rem;
+        padding-bottom: 20px;
+      }
+      .contact-info{
+        border-bottom: 1px solid $success;
+        padding-bottom: 20px;
+        width: 100%;
+        span{
+          font-size: 14px;
+        }
+        i{
+          display: inline-block;
+          padding-right: 5px;
+          color: $primary;
+        }
+      }
+      .contact-time{
+        padding-top: 20px;
+        h6{
+          color: $primary;
+          font-weight: 400;
+          text-align: center;
+        }
+        table{
+          tr{
+            td{
+              padding: 0 10px 0 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .contact-content{
+    margin-top: 30px;
+    width: 100%;
+    border: 1px solid $success;
+    padding: 25px 0;
+    #map{
+      width: 90%;
+      margin: auto;
+      height: 300px;
+    }
+  }
+  .img-intro{
+    position: relative;
+    .overlay-contact{
+      .triangle-right-blue {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 0 20px 40px;
+        border-color: transparent transparent transparent $primary;
+        position: absolute;
+        top: 50%;
+        left: -10px;
+        z-index: 5;
+        cursor: pointer;
+        display: none;
+      }
+      .triangle-right-white{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 25px 0 25px 50px;
+        border-color: transparent transparent transparent $secondary;
+        position: absolute;
+        top: 49.50%;
+        left: -10px;
+        display: none;
+      }
+
+      .triangle-left-blue{
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 40px 20px 0;
+        border-color: transparent $primary transparent transparent;
+        position: absolute;
+        top: 50%;
+        left: -20px;
+        z-index: 5;
+        cursor: pointer;
+      }
+      .triangle-left-white{
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 30px 60px 30px 0;
+        border-color: transparent $secondary transparent transparent;
+        position: absolute;
+        top: 49%;
+        left: -30px;
+        cursor: pointer;
+      }
+
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: $primary;
+      top: 0;
+      right: -99%;
+      z-index: 10;
+      color: $secondary;
+      @include flex-box(column, center, flex-start);
+      transition: 0.5s all;
+      form{
+        width: 100%;
+        ::placeholder{
+          color: $primary;
+        }
+        h4{
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 50px;
+        }
+        .input-container{
+          margin-top: 20px;
+          width: 80%;
+          margin-right: auto;
+          margin-left: auto;
+          label{
+            display: inline-block;
+          };
+          input, textarea{
+            width: 100%;
+            display: inline-block;
+            padding: 5px;
+            &:focus{
+              outline: none;
+            }
+          }
+          textarea{
+            height: 150px;
+          }
+        }
+        .btn-submit-contact{
+          width: 80%;
+          margin-right: auto;
+          margin-left: auto;
+          button{
+            color: $primary;
+            border: none;
+            padding: 5px 20px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

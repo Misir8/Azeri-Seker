@@ -1,36 +1,19 @@
 @charset "UTF-8";
-@media (max-width: 991px) {
-  .overlay-submenu {
-    padding-left: 0;
+@media (max-width: 350px) {
+  .overlay-submenu nav {
+    margin-top: 80px !important;
   }
 
-  .overlay-submenu-main {
-    display: none;
+  .intro-content h1 {
+    margin-top: 80px;
   }
 
-  #about-us .overlay-background {
-    top: 50% !important;
+  #health-and-sport .intro-item h1 {
+    font-size: 2rem !important;
   }
 
-  .nav-fixed {
-    display: none;
-  }
-}
-@media (max-width: 767px) {
-  body #intro .intro-item .intro-content {
-    padding-bottom: 0;
-  }
-  body .overlay .overlay-content .overlay-submenu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 150px;
-  }
-  body .overlay .overlay-content .overlay-nav-menu {
-    padding: 0;
-  }
-  body .overlay .overlay-content .overlay-nav-menu a {
-    font-size: 2.5rem !important;
+  #local-partners .img-intro {
+    padding-top: 200px;
   }
 }
 @media (max-width: 539px) {
@@ -41,14 +24,11 @@
   body #intro .intro-item .intro-content p {
     width: auto;
   }
-  body #intro .intro-item .intro-content h1 {
-    font-size: 3rem;
-  }
-  body .overlay .overlay-content .overlay-nav-menu a {
+  body .overlay .overlay-content .overlay-nav-menu li a {
     font-size: 1.8rem !important;
   }
   body .overlay .overlay-content .overlay-submenu {
-    padding: 0;
+    padding: 0 !important;
   }
   body .overlay .overlay-content .overlay-submenu nav {
     padding: 80px;
@@ -69,14 +49,167 @@
     top: 30%;
     left: 90%;
   }
-}
-@media (max-width: 350px) {
-  .overlay-submenu nav {
-    margin-top: 80px !important;
+
+  #local-partners #intro .img-intro {
+    padding-left: 0 !important;
+  }
+  #local-partners #intro .img-intro .img-center {
+    display: flex;
+    justify-content: center;
   }
 
-  .intro-content h1 {
-    margin-top: 80px;
+  #news h1 {
+    padding-top: 100px !important;
+  }
+
+  #reviews #intro h1 {
+    font-size: 1.8rem !important;
+  }
+  #reviews #intro h1 i {
+    top: 5px !important;
+    left: -10px;
+  }
+
+  #our-products #intro .intro-item {
+    padding: 0 20px 0 20px !important;
+  }
+  #our-products #intro .intro-item h1 {
+    font-size: 2rem;
+    padding-top: 100px;
+  }
+  #our-products #intro .img-intro {
+    padding: 0 20px 0 20px !important;
+  }
+
+  #contacts .intro-item {
+    height: 100% !important;
+    margin-bottom: 50px !important;
+  }
+  #contacts .intro-item .intro-content {
+    width: 100% !important;
+  }
+  #contacts .img-intro {
+    margin-left: 0 !important;
+    min-height: 800px;
+  }
+
+  #about-us h1 {
+    padding-top: 100px;
+  }
+}
+@media (max-width: 767px) {
+  body #intro .intro-item .intro-content {
+    padding-bottom: 0;
+  }
+  body .overlay .overlay-content .overlay-submenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+  }
+  body .overlay .overlay-content .overlay-nav-menu {
+    padding: 0;
+  }
+  body .overlay .overlay-content .overlay-nav-menu a {
+    font-size: 2.5rem !important;
+  }
+
+  #our-products .intro-item {
+    padding: 0 20px 0 120px !important;
+  }
+  #our-products .img-intro {
+    padding: 0 20px 0 120px !important;
+  }
+
+  #product-details #intro .intro-content h1 {
+    font-size: 2rem;
+  }
+  #product-details #intro .intro-content h1 i {
+    left: -20px !important;
+    top: 5px !important;
+  }
+
+  #contacts h1 {
+    font-size: 2rem !important;
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 991px) {
+  .overlay-submenu {
+    padding-left: 0;
+  }
+
+  .overlay-submenu-main {
+    display: none;
+  }
+
+  #about-us .overlay-background {
+    top: 50% !important;
+  }
+
+  .nav-fixed {
+    display: none;
+  }
+
+  #health-and-sport .intro-item {
+    height: 100vh !important;
+  }
+  #health-and-sport .img-intro {
+    height: 100vh !important;
+  }
+
+  #local-partners .img-intro {
+    padding-left: 200px !important;
+  }
+
+  #reviews .intro-item {
+    height: auto !important;
+  }
+
+  #our-products #intro .img-product {
+    height: 400px;
+  }
+
+  #product-details #intro h1 {
+    font-size: 3rem;
+  }
+  #product-details #intro h1 i {
+    left: -30px !important;
+    top: 7px !important;
+  }
+
+  #contacts .img-intro {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 1200px) {
+  #about-us h1 {
+    font-size: 2.5rem !important;
+  }
+
+  #health-and-sport h1 {
+    font-size: 2.5rem !important;
+  }
+
+  #local-partners .intro-item h1 {
+    font-size: 2.5rem !important;
+  }
+
+  #reviews h1 {
+    font-size: 3rem !important;
+  }
+
+  #our-products .intro-item {
+    height: auto !important;
+  }
+  #our-products .intro-item h1 {
+    font-size: 3rem;
+  }
+  #our-products .img-intro {
+    height: auto !important;
+  }
+  #our-products .img-intro .product-container {
+    margin-bottom: 40px;
   }
 }
 body {
@@ -104,7 +237,7 @@ a:hover {
   background: rgba(255, 255, 255, 0.5);
 }
 .nav-fixed nav ul {
-  border: 1px solid #8b8b8b;
+  border: 1px solid #b1b1b1;
   padding: 5px;
   list-style: none;
   display: flex;
@@ -134,11 +267,11 @@ a:hover {
 }
 .nav-fixed nav ul li:last-child a {
   color: #1fb2eb;
-  border-left: 1px solid #8b8b8b;
+  border-left: 1px solid #b1b1b1;
   padding-left: 10px;
 }
 .nav-fixed nav ul li a {
-  color: #8b8b8b;
+  color: #b1b1b1;
   display: inline-block;
   transition: 0.5s all;
   width: 100%;
@@ -179,7 +312,7 @@ a:hover {
   -webkit-line-clamp: 10;
   -webkit-box-orient: block-axis;
   display: -webkit-box;
-  color: #8b8b8b;
+  color: #b1b1b1;
 }
 #intro .overlay-background {
   position: absolute;
@@ -314,12 +447,334 @@ a:hover {
 #about-us #intro .row {
   flex-direction: row-reverse;
 }
+#about-us #intro h1 {
+  font-size: 3.5rem;
+}
 #about-us #intro .img-intro div {
   width: 100%;
   height: 100%;
   position: absolute;
   left: 100px;
   z-index: 999;
+}
+
+#health-and-sport .intro-item {
+  height: 55vh;
+  width: 75%;
+}
+#health-and-sport .intro-item .intro-content {
+  padding-bottom: 0;
+}
+#health-and-sport .intro-item .intro-content h1 {
+  font-size: 3rem;
+}
+#health-and-sport .intro-item .intro-content p {
+  margin: 0;
+  width: 100%;
+}
+#health-and-sport .intro-item .intro-content p:first-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: block-axis;
+  display: -webkit-box;
+}
+#health-and-sport .intro-item .intro-content p:first-child {
+  padding-bottom: 30px;
+}
+#health-and-sport .img-intro {
+  height: 45vh;
+}
+#health-and-sport .img-intro div {
+  width: 100%;
+  height: 100%;
+}
+
+#local-partners h1 {
+  font-size: 3.5rem !important;
+}
+#local-partners .img-intro img {
+  object-fit: cover;
+  width: 200px;
+}
+
+#news .intro-content {
+  padding-bottom: 0 !important;
+}
+#news .intro-content h1 {
+  font-size: 4rem !important;
+}
+#news .intro-content p {
+  margin-top: 5px !important;
+  width: 100% !important;
+}
+#news .img-intro div {
+  height: 100%;
+}
+#news .overlay-background {
+  top: 0;
+  height: 100%;
+  left: 50%;
+  position: fixed;
+}
+
+#reviews #intro .intro-item .intro-content {
+  width: 80%;
+  padding-bottom: 0;
+}
+#reviews #intro .intro-item .intro-content h1 {
+  font-size: 4rem;
+  margin-top: 200px;
+  position: relative;
+}
+#reviews #intro .intro-item .intro-content h1 i {
+  position: absolute;
+  top: 10px;
+  left: -40px;
+}
+#reviews #intro .intro-item .intro-content h5 {
+  color: #1fb2eb;
+  margin-bottom: 10px;
+}
+#reviews #intro .intro-item .intro-content p {
+  margin: 0 0 20px 0;
+  width: 100%;
+}
+#reviews .overlay-background {
+  top: 0;
+  height: 50%;
+  left: 65%;
+  width: 100%;
+}
+#reviews .img-background {
+  width: 800px;
+  height: 400px;
+  position: fixed;
+  right: -50px;
+  z-index: -1;
+  top: 0;
+}
+#reviews .nav-fixed {
+  background-color: white;
+}
+
+#our-products #intro .intro-item {
+  height: 45vh;
+  padding: 0 200px;
+}
+#our-products #intro .intro-item .intro-content {
+  padding: 0;
+  width: 100%;
+}
+#our-products #intro .intro-item .intro-content p {
+  margin: 40px 0;
+}
+#our-products .img-intro {
+  height: 55vh;
+  overflow-y: scroll;
+  padding: 0 200px;
+}
+#our-products .img-intro .product-card {
+  border: 1px solid #b1b1b1;
+  min-height: 350px;
+  overflow: hidden;
+  padding: 40px 20px 20px 20px;
+  margin-bottom: 40px;
+}
+#our-products .img-intro .product-card .img-product {
+  height: 280px;
+}
+#our-products .img-intro .product-card .img-product img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#our-products .img-intro .product-card .product-description {
+  border-top: 1px solid #b1b1b1;
+  width: 70%;
+  padding-top: 20px;
+  color: #b1b1b1;
+}
+#our-products .nav-fixed ul {
+  border: none;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1fb2eb;
+}
+
+#product-details #intro h1 {
+  position: relative;
+  font-size: 4rem;
+}
+#product-details #intro h1 i {
+  position: absolute;
+  top: 10px;
+  left: -40px;
+}
+
+#contacts .contact-container {
+  width: 100vw !important;
+}
+#contacts #intro .intro-content {
+  color: #b1b1b1;
+  padding-bottom: 0;
+  justify-content: flex-start;
+  padding-top: 150px;
+  width: 80%;
+}
+#contacts #intro .intro-content h1 {
+  font-size: 3.5rem;
+  padding-bottom: 20px;
+}
+#contacts #intro .intro-content .contact-info {
+  border-bottom: 1px solid #b1b1b1;
+  padding-bottom: 20px;
+  width: 100%;
+}
+#contacts #intro .intro-content .contact-info span {
+  font-size: 14px;
+}
+#contacts #intro .intro-content .contact-info i {
+  display: inline-block;
+  padding-right: 5px;
+  color: #1fb2eb;
+}
+#contacts #intro .intro-content .contact-time {
+  padding-top: 20px;
+}
+#contacts #intro .intro-content .contact-time h6 {
+  color: #1fb2eb;
+  font-weight: 400;
+  text-align: center;
+}
+#contacts #intro .intro-content .contact-time table tr td {
+  padding: 0 10px 0 10px;
+}
+#contacts .contact-content {
+  margin-top: 30px;
+  width: 100%;
+  border: 1px solid #b1b1b1;
+  padding: 25px 0;
+}
+#contacts .contact-content #map {
+  width: 90%;
+  margin: auto;
+  height: 300px;
+}
+#contacts .img-intro {
+  position: relative;
+}
+#contacts .img-intro .overlay-contact {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #1fb2eb;
+  top: 0;
+  right: -99%;
+  z-index: 10;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  transition: 0.5s all;
+}
+#contacts .img-intro .overlay-contact .triangle-right-blue {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 0 20px 40px;
+  border-color: transparent transparent transparent #1fb2eb;
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  z-index: 5;
+  cursor: pointer;
+  display: none;
+}
+#contacts .img-intro .overlay-contact .triangle-right-white {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 25px 50px;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  top: 49.5%;
+  left: -10px;
+  display: none;
+}
+#contacts .img-intro .overlay-contact .triangle-left-blue {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 40px 20px 0;
+  border-color: transparent #1fb2eb transparent transparent;
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  z-index: 5;
+  cursor: pointer;
+}
+#contacts .img-intro .overlay-contact .triangle-left-white {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30px 60px 30px 0;
+  border-color: transparent #fff transparent transparent;
+  position: absolute;
+  top: 49%;
+  left: -30px;
+  cursor: pointer;
+}
+#contacts .img-intro .overlay-contact form {
+  width: 100%;
+}
+#contacts .img-intro .overlay-contact form ::placeholder {
+  color: #1fb2eb;
+}
+#contacts .img-intro .overlay-contact form h4 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+#contacts .img-intro .overlay-contact form .input-container {
+  margin-top: 20px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#contacts .img-intro .overlay-contact form .input-container label {
+  display: inline-block;
+}
+#contacts .img-intro .overlay-contact form .input-container input, #contacts .img-intro .overlay-contact form .input-container textarea {
+  width: 100%;
+  display: inline-block;
+  padding: 5px;
+}
+#contacts .img-intro .overlay-contact form .input-container input:focus, #contacts .img-intro .overlay-contact form .input-container textarea:focus {
+  outline: none;
+}
+#contacts .img-intro .overlay-contact form .input-container textarea {
+  height: 150px;
+}
+#contacts .img-intro .overlay-contact form .btn-submit-contact {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#contacts .img-intro .overlay-contact form .btn-submit-contact button {
+  color: #1fb2eb;
+  border: none;
+  padding: 5px 20px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

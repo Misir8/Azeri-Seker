@@ -25,6 +25,36 @@ closeBtn.addEventListener("click", function (event) {
     nav.classList.remove('focus-in-expand-fwd')
 });
 
+
+
+
+//Contact Page
+const leftTriangle = document.querySelector(".triangle-left-blue");
+const leftTriangleWhite = document.querySelector(".triangle-left-white");
+const overlayContact = document.querySelector(".overlay-contact");
+const rightTriangleBlue = document.querySelector(".triangle-right-blue");
+const rightTriangleWhite = document.querySelector(".triangle-right-white");
+
+
+if(rightTriangleBlue !== null || leftTriangle !== null ){
+    leftTriangle.addEventListener("click", function () {
+        leftTriangle.style.display = "none";
+        leftTriangleWhite.style.display = "none";
+        overlayContact.style.right = "0";
+        rightTriangleBlue.style.display = "block";
+        rightTriangleWhite.style.display = "block";
+    });
+
+    rightTriangleBlue.addEventListener("click", function () {
+        leftTriangle.style.display = "block";
+        leftTriangleWhite.style.display = "block";
+        overlayContact.style.right = "-99%";
+        rightTriangleBlue.style.display = "none";
+        rightTriangleWhite.style.display = "none";
+    });
+}
+
+
 //JQuery
 
 $(document).ready(function(){
@@ -66,6 +96,49 @@ $(document).ready(function(){
             }
         });
     }
+
+
+
+    /* starts contact map */
+    var marker = $('.marker');
+    marker.css('display', 'none');
+    if ($('#map').length > 0) {
+        function initMap(getId) {
+            if (document.getElementById(getId)) {
+                let lat = parseFloat(document.getElementById(getId).getAttribute("lat"));
+                let lng = parseFloat(document.getElementById(getId).getAttribute("lng"));
+
+                var location = { lat, lng };
+                map = new google.maps.Map(document.getElementById(getId), {
+                    zoom: 16,
+                    disableDefaultUI: true,
+                    center: location,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                });
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: location,
+                    animation: google.maps.Animation.DROP,
+                    icon:`${marker[0].src}`,
+                });
+                marker.addListener('click', function() {
+                    $('.contact_details').removeClass('dnonemobile');
+                });
+                marker.addListener('click', toggleBounce);
+            }
+        }
+        function toggleBounce() {
+            if (marker.getAnimation() !== null) {
+                marker.setAnimation(null);
+            } else {
+                marker.setAnimation(google.maps.Animation.BOUNCE);
+            }
+        }
+        initMap("map");
+        google.maps.event.addDomListener(window, "load", initMap);
+    }
+
+    /* ends contact map */
 
 
 

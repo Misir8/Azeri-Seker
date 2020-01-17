@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0526c818-c0a9-47a4-95a2-e28296dbaea7" name="Default Changelist" comment="" />
+    <list default="true" id="0526c818-c0a9-47a4-95a2-e28296dbaea7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health-and-sport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local-partners.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/our-products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/variable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +32,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WKuDmx0sUOtOlGhiQzIQtrveAQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -55,7 +76,12 @@
       <updated>1578910490032</updated>
       <workItem from="1578910491603" duration="12505000" />
       <workItem from="1578940927785" duration="3219000" />
-      <workItem from="1578981416124" duration="23312000" />
+      <workItem from="1578981416124" duration="24143000" />
+      <workItem from="1579023643129" duration="24000" />
+      <workItem from="1579069282097" duration="18327000" />
+      <workItem from="1579119420457" duration="28000" />
+      <workItem from="1579155362784" duration="21536000" />
+      <workItem from="1579240334492" duration="4256000" />
     </task>
     <servers />
   </component>

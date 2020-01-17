@@ -1,43 +1,28 @@
-@media (max-width:991px) {
-  .overlay-submenu {
-    padding-left: 0;
-  }
-  .overlay-submenu-main{
-    display: none;
-  }
-  #about-us{
-    .overlay-background{
-      top: 50% !important;
+@media (max-width: 350px){
+  .overlay-submenu{
+    nav{
+      margin-top: 80px !important;
     }
   }
-  .nav-fixed{
-    display: none;
-  }
-}
-
-@media (max-width:767px) {
-  body{
-    #intro .intro-item .intro-content{
-      padding-bottom: 0;
+  .intro-content{
+    h1{
+      margin-top: 80px;
     }
-    .overlay{
-      .overlay-content{
-        .overlay-submenu{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding-left: 150px;
-        }
-        .overlay-nav-menu{
-          padding: 0;
-          a{
-            font-size: 2.5rem!important;
-          }
-        }
+  }
+  #health-and-sport{
+    .intro-item{
+      h1{
+        font-size: 2rem !important;
       }
     }
   }
+  #local-partners{
+    .img-intro{
+      padding-top: 200px;
+    }
+  }
 }
+
 
 @media (max-width: 539px){
   body{
@@ -47,19 +32,18 @@
       p{
         width: auto;
       }
-      h1{
-        font-size: 3rem;
-      }
     }
     .overlay{
       .overlay-content{
         .overlay-nav-menu{
-          a{
-            font-size: 1.8rem!important;
+          li{
+            a{
+              font-size: 1.8rem!important;
+            }
           }
         }
         .overlay-submenu{
-          padding: 0;
+          padding: 0 !important;
           nav{
             padding: 80px;
           }
@@ -83,17 +67,217 @@
       }
     }
   }
-}
-
-@media (max-width: 350px){
-  .overlay-submenu{
-    nav{
-      margin-top: 80px !important;
+  #local-partners{
+    #intro{
+      .img-intro{
+        padding-left: 0 !important;
+        .img-center{
+          display: flex;
+          justify-content: center;
+        }
+      }
     }
   }
-  .intro-content{
+  #news{
     h1{
-      margin-top: 80px;
+      padding-top: 100px !important;
+    }
+  }
+  #reviews{
+    #intro{
+      h1{
+        font-size: 1.8rem !important;
+        i{
+          top: 5px !important;
+          left: -10px;
+        }
+      }
+    }
+  }
+  #our-products{
+    #intro{
+      .intro-item{
+        padding: 0 20px 0 20px !important;
+        h1{
+          font-size: 2rem;
+          padding-top: 100px;
+        }
+      }
+      .img-intro{
+        padding: 0 20px  0 20px !important;
+      }
+    }
+  }
+  #contacts{
+    .intro-item{
+      height: 100% !important;
+      margin-bottom: 50px !important;
+      .intro-content{
+        width: 100% !important;
+      }
+    }
+    .img-intro{
+      margin-left: 0 !important;
+      min-height: 800px;
+    }
+  }
+  #about-us{
+    h1{
+      padding-top: 100px;
+    }
+  }
+}
+
+
+
+@media (max-width:767px) {
+  body{
+    #intro .intro-item .intro-content{
+      padding-bottom: 0;
+    }
+    .overlay{
+      .overlay-content{
+        .overlay-submenu{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-left: 150px;
+        }
+        .overlay-nav-menu{
+          padding: 0;
+          a{
+            font-size: 2.5rem!important;
+          }
+        }
+      }
+    }
+  }
+  #our-products{
+    .intro-item{
+      padding: 0 20px 0 120px !important;
+    }
+    .img-intro{
+      padding: 0 20px  0 120px !important;
+    }
+  }
+  #product-details{
+    #intro{
+      .intro-content{
+        h1{
+          font-size: 2rem;
+          i{
+            left: -20px !important;
+            top: 5px !important;
+          }
+        }
+      }
+    }
+  }
+  #contacts{
+    h1{
+      font-size: 2rem !important;
+      margin-top: 0 !important;
+    }
+  }
+}
+
+
+
+@media (max-width:991px) {
+  .overlay-submenu {
+    padding-left: 0;
+  }
+  .overlay-submenu-main{
+    display: none;
+  }
+  #about-us{
+    .overlay-background{
+      top: 50% !important;
+    }
+  }
+  .nav-fixed{
+    display: none;
+  }
+  #health-and-sport{
+    .intro-item{
+      height: 100vh !important;
+    }
+    .img-intro{
+      height: 100vh !important;
+    }
+  }
+  #local-partners{
+    .img-intro{
+      padding-left: 200px !important;
+    }
+  }
+  #reviews{
+    .intro-item{
+      height: auto !important;
+    }
+  }
+  #our-products{
+    #intro{
+      .img-product{
+        height: 400px;
+      }
+    }
+  }
+  #product-details{
+    #intro{
+      h1{
+        font-size: 3rem;
+        i{
+          left: -30px !important;
+          top: 7px !important;
+        }
+      }
+    }
+  }
+  #contacts{
+    .img-intro{
+      margin-left: 100px;
+    }
+  }
+}
+
+
+
+@media (max-width: 1200px){
+  #about-us{
+    h1{
+      font-size: 2.5rem !important;
+    }
+  }
+  #health-and-sport{
+    h1{
+      font-size: 2.5rem !important;
+    }
+  }
+  #local-partners{
+    .intro-item{
+      h1{
+        font-size: 2.5rem !important;
+      }
+    }
+  }
+  #reviews{
+    h1{
+      font-size: 3rem !important;
+    }
+  }
+  #our-products{
+    .intro-item{
+      height: auto!important;
+      h1{
+        font-size: 3rem;
+      }
+    }
+    .img-intro{
+      height: auto!important;
+      .product-container{
+        margin-bottom: 40px;
+      }
     }
   }
 }
