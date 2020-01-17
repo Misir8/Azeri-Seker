@@ -26,6 +26,9 @@
 
 @media (max-width: 539px){
   body{
+    .h1-main{
+      margin-top: 4rem !important;
+    }
     #intro .intro-item .intro-content{
       width: 100%;
       padding: 0 30px;
@@ -239,6 +242,9 @@
       margin-left: 100px;
     }
   }
+  .intro-item{
+    height: auto!important;
+  }
 }
 
 
@@ -279,5 +285,34 @@
         margin-bottom: 40px;
       }
     }
+  }
+}
+
+
+
+@media screen and (max-width: 750px) , screen and (max-height: 600px) {
+  .overlay{
+    .overlay-content{
+      .overlay-submenu{
+        height: auto!important;
+        margin: 20px 0;
+        nav{
+          margin: 80px 0;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 993px){
+  .submenu-close{
+    display: none;
+  }
+}
+
+@media (max-height: 710px) {
+  #contacts .img-intro {
+    min-height: 800px;
+    margin-top: 50px;
   }
 }

@@ -17,6 +17,9 @@
   }
 }
 @media (max-width: 539px) {
+  body .h1-main {
+    margin-top: 4rem !important;
+  }
   body #intro .intro-item .intro-content {
     width: 100%;
     padding: 0 30px;
@@ -181,6 +184,10 @@
   #contacts .img-intro {
     margin-left: 100px;
   }
+
+  .intro-item {
+    height: auto !important;
+  }
 }
 @media (max-width: 1200px) {
   #about-us h1 {
@@ -210,6 +217,26 @@
   }
   #our-products .img-intro .product-container {
     margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 750px), screen and (max-height: 600px) {
+  .overlay .overlay-content .overlay-submenu {
+    height: auto !important;
+    margin: 20px 0;
+  }
+  .overlay .overlay-content .overlay-submenu nav {
+    margin: 80px 0;
+  }
+}
+@media (min-width: 993px) {
+  .submenu-close {
+    display: none;
+  }
+}
+@media (max-height: 710px) {
+  #contacts .img-intro {
+    min-height: 800px;
+    margin-top: 50px;
   }
 }
 body {
@@ -286,6 +313,7 @@ a:hover {
 #intro .intro-item {
   position: relative;
   height: 100vh;
+  overflow: hidden;
 }
 #intro .intro-item .intro-content {
   height: 100%;
@@ -444,6 +472,9 @@ a:hover {
   left: 300px;
   top: 0;
 }
+#about-us #intro .intro-content {
+  padding-top: 100px;
+}
 #about-us #intro .row {
   flex-direction: row-reverse;
 }
@@ -497,6 +528,9 @@ a:hover {
   object-fit: cover;
   width: 200px;
 }
+#local-partners .partners-container {
+  height: 100% !important;
+}
 
 #news .intro-content {
   padding-bottom: 0 !important;
@@ -518,13 +552,16 @@ a:hover {
   position: fixed;
 }
 
+#reviews .container-fluid {
+  padding: 0;
+}
 #reviews #intro .intro-item .intro-content {
   width: 80%;
   padding-bottom: 0;
 }
 #reviews #intro .intro-item .intro-content h1 {
   font-size: 4rem;
-  margin-top: 200px;
+  margin-top: 100px;
   position: relative;
 }
 #reviews #intro .intro-item .intro-content h1 i {
@@ -582,7 +619,7 @@ a:hover {
   margin-bottom: 40px;
 }
 #our-products .img-intro .product-card .img-product {
-  height: 280px;
+  height: 240px;
 }
 #our-products .img-intro .product-card .img-product img {
   width: 100%;
@@ -624,7 +661,7 @@ a:hover {
   color: #b1b1b1;
   padding-bottom: 0;
   justify-content: flex-start;
-  padding-top: 150px;
+  padding-top: 100px;
   width: 80%;
 }
 #contacts #intro .intro-content h1 {
@@ -668,6 +705,7 @@ a:hover {
 }
 #contacts .img-intro {
   position: relative;
+  height: 100vh;
 }
 #contacts .img-intro .overlay-contact {
   position: absolute;

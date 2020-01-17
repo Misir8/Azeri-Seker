@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0526c818-c0a9-47a4-95a2-e28296dbaea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health-and-sport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local-partners.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/our-products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviews.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/variable.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-products.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +73,7 @@
       <workItem from="1579069282097" duration="18327000" />
       <workItem from="1579119420457" duration="28000" />
       <workItem from="1579155362784" duration="21536000" />
-      <workItem from="1579240334492" duration="4256000" />
+      <workItem from="1579240334492" duration="13552000" />
     </task>
     <servers />
   </component>
